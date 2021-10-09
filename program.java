@@ -109,8 +109,8 @@ public class program {
 	public static void compileletter(char temchar) {
 		test.site++;
 		test.word = String.valueOf(temchar);
-		while ((test.site < test.length) && (Character.isLetterOrDigit(test.temString.charAt(test.site)))
-				|| (test.temString.charAt(test.site) == '_')) {
+		while ((test.site < test.length) && (Character.isLetterOrDigit(test.temString.charAt(test.site))
+				|| (test.temString.charAt(test.site) == '_'))) {
 			test.word = test.word + test.temString.charAt(test.site);
 			test.site++;
 		}
